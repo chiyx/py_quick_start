@@ -1,4 +1,4 @@
-spam = {'color': 'red', 'age': 42}
+import pyperclip
 
-for v in spam.values():
-    print(v)
+pyperclip.copy('Hello world')
+print(pyperclip.paste())
