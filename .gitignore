@@ -8,3 +8,6 @@ ENV/
 *.bak
 *.dat
 *.dir
+
+# cache
+__pycache__
