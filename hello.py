@@ -1,5 +1,6 @@
 import pyperclip
 
 
-pyperclip.copy('Hello world')
-print(pyperclip.paste())
+for i in range(1, 10):
+    print(i)
+
